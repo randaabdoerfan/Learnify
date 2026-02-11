@@ -6,7 +6,7 @@
 
 ## 🚀 Demo
 
-Check out the live demo: [Demo Link](https://your-demo-link.com)  
+Check out the live demo: [Demo Link](https://www.youtube.com/watch?v=2Cd0G4yKLdk)  
 
 ![Learnify Screenshot](./frontend/react-app/public/Learnify.jpg)
 
