@@ -1,0 +1,96 @@
+.main-container {
+    display: flex;
+    align-items: center; /* Vertically centers content */
+    justify-content: space-between;
+    padding-left: 100px;
+    background: linear-gradient(to right, #e0e3e6, #dee2e6);
+    height: 100vh; /* Makes it full-screen height */
+}
+
+.main-content {
+    flex: 1; /* Allows content to take available space */
+    max-width: 500px;
+    text-align: center; /* Centers text inside the left section */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    justify-content: center; /* Centers content vertically */
+    height: 100%; /* Ensures full height usage */
+}
+
+h1 {
+    font-size: 3rem;
+    color: #4d9db6;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #0d0d0e;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Ensures bullet points align properly */
+}
+
+.features-list li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.cta-message {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.register {
+    background-color: #0077b6;
+    color: white;
+}
+
+.login {
+    background-color: #0077b6;
+    color: white;
+}
+
+.register:hover {
+    background-color: #005f8f;
+}
+
+.login:hover {
+    background-color: #d64040;
+}
+
+.main-image {
+    flex: 1; /* Ensures it takes half the space */
+    display: flex;
+    justify-content: center; /* Centers image */
+}
+
+.main-image img {
+    width: 450px;
+    border-radius: 20px;
+}
